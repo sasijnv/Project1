@@ -29,5 +29,6 @@ public class Firstclass {
 		driver.findElement(By.id("ap_password")).sendKeys("Sash1993");
 		driver.findElement(By.id("signInSubmit")).click();
 		driver.close();
+		System.out.println(driver.getTitle());
 	}
 }
